@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    background-color: rgb(199, 199, 199);
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 37, 82);
+    color: white;
+    padding-inline: 15px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+main {
+    width: 80vw;
+    margin-inline: auto;
+
+}
+
+.about {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-top: 1rem;
+    text-align: start;
+}
+
+.heading span {
+    border-bottom: 1px solid rgb(255, 0, 0);
+}
+.about img {
+    height: 250px;
+    width: 250px;
+    align-self: flex-end;
+    margin-top: 2rem;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+
+}
+.skills-container {
+    display: flex;
+    font-size: 20px;
+    gap: 1.3rem;
+    flex-wrap: wrap;
+}
+.project-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.project-card {
+    width: 350px;
+    box-shadow: 10px 10px 15px rgba(160, 79, 79, 0.2);
+    padding: 10px;
+}
+.project-card img {
+    text-align: center;
+    height: 300px;
+    width: 300px;
+}
